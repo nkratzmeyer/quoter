@@ -59,3 +59,6 @@ $(function() {
     }
   });
 });
+
+//Set the date field
+document.getElementById("lbl-date").innerText = new Date().toDateString();
